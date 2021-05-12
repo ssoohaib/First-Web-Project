@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.rating .fa{
+    color: purple;
+}
+
+/*navigation bar*/
+.header{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+body{
+    font-family: 'Poppins',sans-serif;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none; /*removes dot of list*/
+
+}
+
+nav ul li{
+    font-size: 18px;
+    font:bold;
+    display: inline-block; /*places list horizontally*/
+    margin-right: 18px;
+}
+a{
+    text-decoration: none; /*removes underline*/
+    color: rgb(73, 58, 58);
+}
+
+
+
+
+
+.small-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+
+.allproducts h2{
+    margin-top: 3cm;
+    margin-left: 1cm;
+    
+}
+
+.coronatitle{
+    font-size: 24px;
+    text-align: center;
+    position: relative;
+    line-height: 60px;
+    color: rgb(106, 39, 106);
+}
+
+.col{
+    flex-basis: 25%;
+    padding: 20px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+}
+.col img{
+    width: 100%;
+}
+.col:hover{
+    transform: translateY(-10px);
+}
+
+
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+.offer{
+    background: radial-gradient(#e7dee9,#833183);
+    margin-top: 80px;
+    padding: 30px 0;
+}
+.col-1 .offer-img{
+    padding: 50px;
+}
+.col-1{
+    flex-basis: 50%;
+    min-width: 30px;
+
+}
+.col-1 img{
+    max-width: 100%;
+    padding: 50px 0;
+}
+.col-1 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+
+
+
+
+
+
+.brands{
+    margin: 100px auto;
+
+}
+.col2{
+    width: 160px;
+
+
+}
+.col2 img{
+    width: 100%;
+}
+
+
+
+.footer{
+    background: rgb(109, 35, 109);
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 20px;
+}
+.container{
+    max-width: 2300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.footer h3{
+    color: #fff;
+    margin-bottom: 20px;
+
+}
+.applogo{
+    margin-top: 20px;
+}
+.applogo img{
+    width: 140px;
+    
+}
+.fcol1{
+    margin-bottom: 20px;
+    min-width: 1000px;
+    flex-basis: 30%;
+}
+.fcal2 img{
+    width: 140px;
+}
+
+.copyright{
+    color: white;
+}
+.fcal3 ul{
+   
+        display: inline-block;
+        list-style-type: none; /*removes dot of list*/
+    
+    
+}
